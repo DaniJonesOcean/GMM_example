@@ -9,7 +9,7 @@ There are two CSV files in this repository:
 Each row represents a single Argo profile. The columns are variables associated with that profile, specifically:
 - x : longitude (°E)
 - y : latitude (°N)
-- Temperature or salinity values at the indicated pressure levels (reported in dbar)
+- Temperature (°C) or salinity (psu) values at the indicated pressure levels (dbar)
 
 Pressure is a commonly-used vertical coordinate for oceanographic data, in part because it can be directly measured by instruments while they are in the ocean. . When reported in dbar, pressure has values that are somewhat close to depth recorded in metres. 
 
