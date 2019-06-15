@@ -11,5 +11,7 @@ Each row represents a single Argo profile. The columns are variables associated 
 - y : latitude (°N)
 - Temperature or salinity values at the indicated pressure levels (reported in dbar)
 
+Pressure is a commonly-used vertical coordinate for oceanographic data, in part because it can be directly measured by instruments while they are in the ocean. . When reported in dbar, pressure has values that are somewhat close to depth recorded in metres. 
+
 ## Procedure
 The demo procedure is described in the Jupyter notebook contained in this repository. See that file for further instructions.
