@@ -3,6 +3,10 @@ Unsupervised classification is a type of machine learning that attempts to ident
 
 This repository contains two small Argo float datasets, each containing about 1% of the total Southern Ocean profiles (up to early 2017). It also contains a Jupyter notebook that illustrates the application of GMM to the Argo temperature dataset. 
 
+The clusters derived using GMM can be used to create maps of spatially coherent "profile types", as shown in the example plot below. (This is an additional feature not currently shown in this repository).
+
+![Example map of profile clusters](map.jpg)
+
 ## Data description
 There are two CSV files in this repository:
 - Temperature profiles: Argo_T_profiles_very_small_subset.csv  [units °C]
